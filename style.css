@@ -1,0 +1,106 @@
+body {
+    background-color: pink;
+    cursor: url(./minou.gif), auto;
+}
+
+a{
+    cursor: url(./treats.gif), auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deeppink;
+}
+li{
+    float: left;
+    font-size: 1.4em;
+}
+li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 1vh 2vw;
+    text-decoration: none;
+}
+li a:hover {
+    color: deeppink;
+    background-color: pink;
+}
+
+h1{
+    color: deeppink;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    color: deeppink;
+    text-decoration: underline;
+    margin-top: 5vh;
+}
+
+img {
+    width: auto;
+    max-height: 60vh;
+    display: block;
+    margin: auto;
+}
+
+p{
+    color: #A9015C;
+    text-align: center;
+}
+footer {
+    background-color: deeppink;
+    color: pink;
+    text-align: center;
+}
+footer a:link, footer a:visited, footer a:focus, footer a:active{
+    text-decoration: none;
+    color: pink;
+}
+footer a:hover{
+    color: darkviolet;
+    text-shadow: white;
+}
+
+@media screen and (max-width: 620px) {
+    h1 {
+        font-size: 2em;
+    }
+    img {
+        max-width: 80vw;
+        height: auto;;
+    }
+}
+@media screen and (max-width: 475px) {
+    .navbar li {
+        float: none;
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    li{
+        font-size: 1.2em;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    footer {
+        font-size: 1.2em;
+    }
+}
+
+
+footer {
+    background-color: deeppink;
+    color: pink;
+    font-size: 1.4em;
+}
